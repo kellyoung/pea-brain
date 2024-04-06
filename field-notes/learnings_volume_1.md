@@ -1,4 +1,4 @@
-# learnings, volume 1
+# week-1 learnings
 
 I started dabbling in techno-optimism in the past few weeks, which has opened me up to exploring AI a little bit more. In my exploration I kept thinking about how much I value my personal journey of thought and how much better computers are at remembering things. From what I learned so far, it seemed really possible to use AI to build a digital representation of my mind. I wanted to build something where it would be easy to store my thoughts and recall them. I started thinking about LLM's (large language models) as a representation of a large collective mind and in that vein,  wondered if I could build an LLM of my own mind. Since my mind is so tiny in comparison, I wanted to call this LLM "pea-brain" and wanted to build tools for others to also create their own pea brains. The name "pea-brain" was so compelling, I decided I must see it to fruition!
 
@@ -14,7 +14,7 @@ However, my time Leetcoding really had me questioning performance and feeling re
 
 This is my elementary understanding of how vector stores and embeddings work. My partner illustrated to me in the terms of a map, which I found really helpful to understand how the performance improves. I'll try my best to describe what I learned:
 
-![](/assets/images/image-20240405225731045-4438x3193.png)
+![](/assets/images/embedding-performance-example-20240406124804084-4438x3180.png)
 
 Similar to the map concept, how LLM's communicate with a vector store is to create an embedding (a numerical representation) of the query, and then find embeddings in the Vector Store that are in proximity to the embedding of the query. I think what's most mind-blowing to me about this is the ability to determine proximity based on meaning and not based on literal similarity like "token" and "spoken" sharing the common characters of "oken". When "word2vec" was published, my partner was so hyped about it that the name stuck with me. Turns out, its findings kind of form the basis of using vector embeddings for understanding language. As an aside, I find it strangely touching to see how many different discoveries and people it takes to advance technology and how only in retrospect can you really understand their significance. It makes me want to continue stepping away from the "superhero mentality" (the solo founder narrative) and truly embody the collaborative nature of the world I want to live in.
 
